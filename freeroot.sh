@@ -208,14 +208,11 @@ git \
 htop \
 net-tools \
 openssh-server \
-ca-certificates \
 software-properties-common \
 zip \
 unzip \
 screen \
-tmux \
-python3 \
-python3-pip
+tmux
 
 echo "root:root" | chpasswd
 
