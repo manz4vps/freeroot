@@ -224,7 +224,6 @@ mkdir -p /var/run/sshd
 echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
 
-clear
 
 echo ""
 echo "======================================"
@@ -232,7 +231,6 @@ echo "      HOPINGBOYZ UBUNTU READY"
 echo "======================================"
 echo ""
 
-neofetch
 
 EOF
 
