@@ -130,9 +130,9 @@ fi
 
 install_ubuntu() {
 
-UBUNTU_URL="https://cdimage.ubuntu.com/ubuntu-base/releases/22.04/release/ubuntu-base-22.04.5-base-${ARCH_ALT}.tar.gz"
+UBUNTU_URL="https://cdimage.ubuntu.com/ubuntu-base/releases/20.04/release/ubuntu-base-20.04.5-base-${ARCH_ALT}.tar.gz"
 
-echo -e "${CYAN}[*] Downloading Ubuntu 22.04 RootFS...${RESET}"
+echo -e "${CYAN}[*] Downloading Ubuntu 20.04 RootFS...${RESET}"
 
 wget \
 --tries="$MAX_RETRIES" \
